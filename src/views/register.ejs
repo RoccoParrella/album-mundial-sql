@@ -1,0 +1,27 @@
+<%- include('template/layout') %>
+
+<h1>Registrarse</h1>
+
+<form action="/register" method="POST">
+  <div>
+    <label for="username">Nombre de usuario:</label>
+    <input type="text" name="username" required>
+  </div>
+  <div>
+    <label for="password">Contraseña:</label>
+    <input type="password" name="password" required>
+  </div>
+  <div>
+    <label for="email">Email:</label>
+    <input type="email" name="email" required>
+  </div>
+  <div>
+    <label for="first_name">Nombre:</label>
+    <input type="text" name="first_name" required>
+  </div>
+  <div>
+    <label for="second_name">Apellido:</label>
+    <input type="text" name="second_name" required>
+  </div>
+  <button type="submit">Registrarse</button>
+</form>
