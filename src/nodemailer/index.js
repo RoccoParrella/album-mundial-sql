@@ -1,4 +1,5 @@
 const nodemailer = require('nodemailer')
+const { passwordEmail } =  require('../config/config')
 
 const sendEmail = async () => {
 
@@ -7,7 +8,7 @@ const sendEmail = async () => {
         port: 587,
         auth: {
             user: 'findyourpet.help@gmail.com',
-            pass: 'bezapqxejtqqyxes'
+            pass: passwordEmail
         }
     }
 

@@ -7,5 +7,6 @@ module.exports = {
     passwordDB: process.env.PASSWORDSQL,
     serverName: process.env.SERVERNAME,
     userServer:  process.env.USERSQL,
-    databaseName: process.env.DBNAME
+    databaseName: process.env.DBNAME,
+    passwordEmail: process.env.PASSWORDMAIL
 }
